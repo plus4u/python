@@ -1,16 +1,21 @@
-### fibo module
-# Fibonacci numbers module
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Aug 29 09:11:59 2019
 
-def fib(n):    # write Fibonacci series up to n
-    a, b = 0, 1
-    while b < n:
-        print(b),
-        a, b = b, a+b
+@author: gwihy
+"""
 
-def fib2(n):   # return Fibonacci series up to n
-    result = []
-    a, b = 0, 1
-    while b < n:
-        result.append(b)
-        a, b = b, a+b
-    return result
+# file name : module_1.py
+
+def function_1(v1) :
+    return v1**3
+
+def function_2(v1, v2):
+    return v1*2 + v2*3
+
+
+if __name__ =="__main__" :
+    print(function_1(3))
+    print(function_2(2,3))
+
+
